@@ -6,7 +6,7 @@ package portaudio
 // PA_USE_C99_LRINTF looks still experimental
 // for debug: PA_ENABLE_DEBUG_OUTPUT PA_LOG_API_CALLS
 
-#cgo CFLAGS: -Iportaudio/src/common
+#cgo CFLAGS: -Iportaudio/include -Iportaudio/src/common
 #cgo !windows CFLAGS: -Iportaudio/src/os/unix
 #cgo windows CFLAGS: -Iportaudio/src/os/win
 
