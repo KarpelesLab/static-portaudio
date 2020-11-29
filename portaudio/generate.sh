@@ -50,3 +50,6 @@ genfiles "windows" src/os/win/*.c
 genfiles "windows" src/hostapi/dsound/*.c # direct sound is the preferred way to play sound on windows for now
 genfiles "linux" src/hostapi/alsa/*.c
 genfiles "darwin" src/hostapi/coreaudio/*.c
+
+# remove this.
+rm -f ../inc-src-hostapi-coreaudio-pa-mac-core-old.go
