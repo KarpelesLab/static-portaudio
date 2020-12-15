@@ -3,6 +3,6 @@
 package portaudio
 
 /*
-#include <portaudio/src/hostapi/dsound/pa_win_ds.c>
+#include <portaudio/src/hostapi/wmme/pa_win_wmme.c>
 */
 import "C"
