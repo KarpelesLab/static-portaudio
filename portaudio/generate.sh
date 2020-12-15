@@ -47,7 +47,6 @@ genfiles() {
 genfiles "" src/common/*.c
 genfiles "!windows" src/os/unix/*.c
 genfiles "windows" src/os/win/*.c
-genfiles "windows" src/hostapi/wasapi/*.c
 genfiles "windows" src/hostapi/wmme/*.c
 genfiles "linux" src/hostapi/alsa/*.c
 genfiles "darwin" src/hostapi/coreaudio/*.c
