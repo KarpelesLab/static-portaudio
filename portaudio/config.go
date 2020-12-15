@@ -20,6 +20,6 @@ package portaudio
 #cgo linux LDFLAGS: -lasound
 #cgo darwin CFLAGS: -DPA_USE_COREAUDIO
 #cgo darwin LDFLAGS: -framework CoreFoundation -framework CoreServices -framework CoreAudio -framework AudioToolBox -framework AudioUnit
-#cgo windows CFLAGS: -DPA_USE_DS -DPAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_WIN_DS_USE_WAITABLE_TIMER_OBJECT -DPA_WIN_DS_USE_WMME_TIMER 
+#cgo windows CFLAGS: -DPA_USE_WMME -DPA_USE_WASAPI -Iportaudio/stc/hostapi/wasapi/mingw-include
 */
 import "C"
